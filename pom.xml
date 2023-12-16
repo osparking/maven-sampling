@@ -21,14 +21,39 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.10.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.10.1</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
-	<build>
+	<developers>
+		<developer>
+			<name>박길동</name>
+			<id>parkgd</id>
+			<organization>SpaceStudio</organization>
+			<roles>
+				<role>자바풀스택 개발자</role>
+			</roles>
+		</developer>
+		<developer>
+			<name>김미자</name>
+			<id>kimmj</id>
+			<organization>SpaceStudio</organization>
+			<roles>
+				<role>프론트앤드 디자이너</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<build>		
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven
 			defaults (may be moved to parent pom) -->
 			<plugins>
