@@ -11,15 +11,14 @@
 	<version>1.0-SNAPSHOT</version>
 
 	<description>
-		"JUnit in Action III" book, the sample project for the "Running Junit
-		tests from Maven" chapter.
+		"JUnit in Action III" book, "메이븐 3 에서 JUnit 시험 실행" 장의 예제 프로젝트
 	</description>
 	<organization>
-		<name>Manning Publications</name>
-		<url>http://manning.com/</url>
+		<name>자바 풀스택 개발학원</name>
+		<url>http://java_academy.co.kr/</url>
 	</organization>
-	<inceptionYear>2019</inceptionYear>
-	
+	<inceptionYear>2023</inceptionYear>
+
 	<name>maven-sampling</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
