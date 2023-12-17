@@ -1,6 +1,5 @@
 package space.bum.junit;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
@@ -8,7 +7,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class AppVerify 
 {
     /**
      * Rigorous Test :-)
@@ -17,11 +16,5 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
-    }
-    
-    @Test
-    public void shouldAnswerWithFalse()
-    {
-    	assertFalse( false );
     }
 }
